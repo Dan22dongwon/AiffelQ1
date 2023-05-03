@@ -1,5 +1,7 @@
 # AiffelQ1
 
+리뷰어: 김진홍
+
 word = str(input("?:")) # 회문 입력
 backword = word[::-1] # 역으로 리스트 확인
 
@@ -10,7 +12,6 @@ if word == backword : # if문으로 회문이 맞다면
 else :  # 아니라면
   print("입력된 단어는 회문이 아닙니다.")  # 출력
   
-  <aside>
 🔑 **PRT(Peer Review Template)**
 
 - [O]  코드가 정상적으로 동작하나요?
